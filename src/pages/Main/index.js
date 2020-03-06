@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaGithubAlt, FaPlus, FaSpinner } from 'react-icons/fa';
+import { FaGithubAlt, FaPlus, FaSpinner, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 import api from '../../services/api';
@@ -53,6 +53,14 @@ export default class Main extends Component {
     });
   };
 
+  handleDelete = repository => {
+    const { repositories } = this.state;
+
+    this.setState({
+      repositories: repositories.filter(r => r !== repository),
+    });
+  };
+
   render() {
     const { newRepo, repositories, loading } = this.state;
 
@@ -83,6 +91,7 @@ export default class Main extends Component {
         <List>
           {repositories.map(repository => (
             <li key={repository.name}>
+              <FaTimes onClick={() => this.handleDelete(repository)} />
               <span>{repository.name}</span>
               <Link to={`/repository/${encodeURIComponent(repository.name)}`}>
                 Details

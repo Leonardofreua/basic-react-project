@@ -84,6 +84,11 @@ export const List = styled.ul`
     justify-content: space-between;
     align-items: center;
 
+    svg {
+      cursor: pointer;
+      color: #f51d1d;
+    }
+
     & + li {
       border-top: 1px solid #eee;
     }
