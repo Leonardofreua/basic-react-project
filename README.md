@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  React Github API
+</h1>
 
-## Available Scripts
+<h4 align="center">
+  A simple project using some features of React and Github API.
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#-tipics-covered">Topics Covered</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-### `yarn start`
+<br />
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+  <img src=".github/repositories.png" alt="Repositories" width="100%" />
+  <img src=".github/details_issues.png" alt="React Issues" width="100%" />
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Topics covered
 
-### `yarn test`
+This project aims to teach the basic of a `React` project and some functionality of the Github API. Below are topics
+covered:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Using styled-components](https://github.com/Leonardofreua/react-github-api/commit/0a8999282e92ff1e97b12bed269184b978631ac8)
+- [Creating a global styles](https://github.com/Leonardofreua/react-github-api/commit/c44e5c87155fa203db9ba88569195d7bab1cd4a7)
+- [Stylizing main page](https://github.com/Leonardofreua/react-github-api/commit/b347122feed7e86c88777a3185d17019ab121a44)
+- [Adding a new Repository](https://github.com/Leonardofreua/react-github-api/commit/679875f364f7b101b57979a90560de3ef41fdb20)
+- [Listing repositories](https://github.com/Leonardofreua/react-github-api/commit/b0cf1d12b7419488a5023c5a6c0080dac3f4bbd5)
+- [Using localstorage to save the repositories](https://github.com/Leonardofreua/react-github-api/commit/10e7b55dace93783133922a6682fa9f14d1c10a3)
+- [Route navigation](https://github.com/Leonardofreua/react-github-api/commit/683bc691aab70d5b2bdbf49c41b81e0758c50d49)
+- [Removing repositories from the list](https://github.com/Leonardofreua/react-github-api/commit/2d765e510c0481d62eb73a5044358b3895e3947a)
+- [Loading when a repository is fetched](https://github.com/Leonardofreua/react-github-api/commit/9483a4b5b69995298efecc61ad101d3cc404828e)
+- [Creating PropTypes](https://github.com/Leonardofreua/react-github-api/commit/6a717deb84d926667588479f1f8cae464b3bfa35)
+- [Displaying the details of each Repository](https://github.com/Leonardofreua/react-github-api/commit/f3b3c918dc39aef161c329e78bce9284e34ff626)
+- [Displaying issues](https://github.com/Leonardofreua/react-github-api/commit/a03e1d0fb5ad869f795c2f0259943238b3abf3dc)
 
-### `yarn build`
+## 🤔 How to contribute
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Once your pull request merge is done, you can delete your branch.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :memo: License
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is under the MIT license. See [LICENSE](LICENSE) file for more details.
