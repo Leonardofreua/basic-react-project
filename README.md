@@ -40,7 +40,7 @@ covered:
 
 ## :minidisc: Installation
 
-- Clone project: `git clone https://github.com/Leonardofreua/GoBarber.git`
+- Clone project: `git clone https://github.com/Leonardofreua/react-github-api.git`
 - Run: `yarn install`
 - Then: `yarn start`
 
